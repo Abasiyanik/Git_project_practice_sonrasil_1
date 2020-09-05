@@ -31,9 +31,10 @@ public class P7_Result_of_Google_Research {
 
         */
 
-        String [] queryKeywords={"Ahmed", "Ahmad", "Ahmet", "Ahmat"};
+//        String [] queryKeywords={"Ahmed", "Ahmad", "Ahmet", "Ahmat", "Amed"};
+        String [] queryKeywords2={"Mustafa", "Mostafa", "Mustapha", "Mostopha", "Mostofa"};
         String result="";
-        for (String each:queryKeywords){
+        for (String each:queryKeywords2){
           driver.get("https://google.com");
             driver.findElement(By.name("q")).sendKeys(each+ Keys.ENTER);// for Google the name of the  search box is "q"
             result=driver.findElement(By.id("result-stats")).getText();
