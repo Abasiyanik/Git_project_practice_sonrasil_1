@@ -31,8 +31,9 @@ public class P7_Result_of_Google_Research {
 
         */
 
-//        String [] queryKeywords={"Ahmed", "Ahmad", "Ahmet", "Ahmat", "Amed"};
-        String [] queryKeywords2={"Mustafa", "Mostafa", "Mustapha", "Mostopha", "Mostofa"};
+       // String [] queryKeywords={"Ahmed", "Ahmad", "Ahmet", "Ahmat", "Amed"};
+      //  String [] queryKeywords2={"Mustafa", "Mostafa", "Mustapha", "Mostopha", "Mostofa"};
+        String [] queryKeywords2={"England", "\"South Korea\"","\"North Korea\"","Mexico", "Indonesia", "Turkey", "Germany", "Russia", "USA", "China", "India", "Canada","Pakistan"};
         String result="";
         for (String each:queryKeywords2){
           driver.get("https://google.com");
