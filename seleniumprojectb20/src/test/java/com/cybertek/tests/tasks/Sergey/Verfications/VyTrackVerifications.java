@@ -1,12 +1,13 @@
 package com.cybertek.tests.tasks.Sergey.Verfications;
 //package com.cybertek.homework.vyTrack.Verifications;
 
-import org.junit.Assert;
+//import org.junit.Assert;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
